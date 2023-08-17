@@ -29,7 +29,3 @@ This is a simplified example and should not be used for actual project planning.
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
