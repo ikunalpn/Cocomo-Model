@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>COCOMO Model Estimation</title>
+</head>
+<body>
+    <header>
+        <h1>COCOMO Model Estimation</h1>
+    </header>
+    <main>
+        <section id="model-selection">
+            <h2>Select COCOMO Model</h2>
+            <label>
+                <input type="radio" name="model" value="basic"> Basic
+            </label>
+            <label>
+                <input type="radio" name="model" value="intermediate"> Intermediate
+            </label>
+            <label>
+                <input type="radio" name="model" value="advanced"> Advanced
+            </label>
+        </section>
+        <section id="input-section">
+            <!-- Input fields for project details -->
+            <label for="project-size">Project Size (KLOC):</label>
+            <input type="number" id="project-size" step="0.01">
+            <!-- Add more input fields for project attributes as needed -->
+            <button id="calculate-button">Calculate</button>
+        </section>
+        <section id="result-section">
+            <!-- Display calculated results here -->
+        </section>
+    </main>
+    <footer>
+        <p>Disclaimer: This is a simplified example and should not be used for actual project planning.</p>
+    </footer>
+</body>
+</html>
